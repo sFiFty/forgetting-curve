@@ -1,0 +1,24 @@
+{
+  "name": "forgetting-curve",
+  "version": "1.0.0",
+  "description": "tool for remembering english words using forgetting curve theory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sFiFty/forgetting-curve.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "sass"
+  ],
+  "author": "sFiFty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sFiFty/forgetting-curve/issues"
+  },
+  "homepage": "https://github.com/sFiFty/forgetting-curve#readme"
+}
