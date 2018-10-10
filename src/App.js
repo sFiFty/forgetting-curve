@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
 import Layout from './components/Layout';
-import './App.scss';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <Layout />
+        <Router basename="/">
+          <Route path="/" component={Layout} />
+        </Router>
       </div>
     );
   }
